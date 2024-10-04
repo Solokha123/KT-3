@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px dashed green;
+            display: flex;  
+            gap: 60px;
+            width: 500vw;
+        }
+        .column{
+            border: 2px solid red;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            width: 218px;
+            height: 100%;
+        }
+        .element{
+            width: 100px;
+            height: 100px;
+            border: 2px solid #000;
+        }
+        .big{
+            width: 218px;
+        }
+        .pink{
+            background-color: pink;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .red{
+            background-color: red;
+        }
+        .green{
+            background-color: green;
+        }
+        .very_big
+        {
+            width: 218px;
+            height: 214px;
+        }
+    </style>
+</head>
+<body>
+    <h1>STORE</h1>
+    <div class="container">
+        <div class="column">
+            <div class="element blue"></div>
+            <div class="element blue"></div>
+            <div class="element blue"></div>
+            <div class="element blue"></div>
+            <div class="element big blue"></div>
+            <div class="element blue"></div>
+            <div class="element blue"></div>
+        </div>
+        <div class="column">
+            <div class="element pink"></div>
+            <div class="element pink"></div>
+            <div class="element pink"></div>
+            <div class="element pink"></div>
+            <div class="element pink"></div>
+            <div class="element pink"></div>
+            <div class="element big pink"></div>
+        </div>
+        <div class="column">
+            <div class="element red"></div>
+            <div class="element red"></div>
+            <div class="element red big"></div>
+            <div class="element red"></div>
+            <div class="element red"></div>
+            <div class="element red"></div>
+        </div>
+        <div class="column">
+            <div class="element green"></div>
+            <div class="element green"></div>
+            <div class="element very_big green"></div>
+            <div class="element green"></div>
+            <div class="element green"></div>
+        </div>
+        <div class="column">
+            <div class="element very_big red"></div>
+            <div class="element very_big red"></div>
+        </div>
+        <div class="column">
+            <div class="element blue"></div>
+            <div class="element blue big"></div>
+            <div class="element blue"></div>
+            <div class="element blue big"></div>
+        </div>
+        <div class="column">
+            <div class="element green"></div>
+            <div class="element green"></div>
+            <div class="element red big"></div>
+            <div class="element green"></div>
+            <div class="element green"></div>
+            <div class="element red big"></div>
+        </div>
+        <div class="column">
+            <div class="element blue"></div>
+            <div class="element red"></div>
+            <div class="element green big"></div>
+            <div class="element red"></div>
+            <div class="element blue"></div>
+            <div class="element green big"></div>
+        </div>
+    </div>
+</body>
+</html>
